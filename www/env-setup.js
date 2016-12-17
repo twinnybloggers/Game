@@ -1,4 +1,4 @@
-/* THIS IS THE ____DEVELOPMENT____ FILE */
+/* THIS IS THE ____PRODUCTION____ FILE */
 
 // Initialize Firebase
 var firebaseConfig = {
