@@ -25,6 +25,5 @@ firebase.initializeApp(firebaseConfig);
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 //Send to TDC GA with no domain set. Let the third parameter be "auto" for production
-ga('create', 'UA-75243711-1', {
-    'cookieDomain': 'none'
-});
+ga('create', 'UA-75243711-1', 'auto');
+ga('send', 'pageview'); //page view on "/game.html"
